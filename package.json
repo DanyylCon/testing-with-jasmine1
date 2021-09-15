@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jasmine": "jasmine",
+    "build": "npx tsc",
+    "test": "npm run build && npm run jasmine"
   },
   "keywords": [],
   "author": "",
